@@ -1,15 +1,6 @@
 
 
-nada dá certo  
-
-Para testar usar o Dart Pad . . .  é online
---------------------------------------------------------------------------
-no github dá certo 
-=================================================
-
-ainda testando pelo VsCode
-----------------------------------------------
-
+--------------------------------------
 
 Sets . . . são elementos definidos sem uma chave . . . elementos vazios
 
@@ -415,4 +406,5 @@ dev_dependencies:
   flutter_lints: ^2.0.0
   isar_generator: 2.5.0
   build_runner: ^2.2.0
+
 
