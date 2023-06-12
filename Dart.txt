@@ -1,6 +1,10 @@
 
 dart não funciona no ondrive
 
+--------------------------------------------------
+pode ser que pelo vs code de certo.
+
+
 
 
 agora no Dart
