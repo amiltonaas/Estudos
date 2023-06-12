@@ -1,5 +1,4 @@
 
-No Dart tbem não dá certo
 
 nada dá certo  
 
@@ -7,6 +6,9 @@ Para testar usar o Dart Pad . . .  é online
 --------------------------------------------------------------------------
 no github dá certo 
 =================================================
+
+ainda testando pelo VsCode
+----------------------------------------------
 
 
 Sets . . . são elementos definidos sem uma chave . . . elementos vazios
