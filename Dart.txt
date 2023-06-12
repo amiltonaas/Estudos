@@ -1,0 +1,409 @@
+
+Para testar usar o Dart Pad . . .  é online
+
+
+Sets . . . são elementos definidos sem uma chave . . . elementos vazios
+
+
+
+atualizar o Flutter:  Flutter upgrade
+criar um porojeto novo
+flutter create --project-name=teste --platforms android ./teste 
+fvm global stable - verifica a versão do flutter na forma global
+dart create -t console-full dart_week7_introducao_dart
+cd dart_week7_introducao_dart
+
+para acessar variáveis de ambiente direto . . . sysdm.cpl
+
+Usar o PowerShell como Administrador
+criar projeto em dart
+dart create -t console-full dart_week7_introducao_dart 
+depois . . . 
+cd  dart_week7_introducao_dart 
+depois dart run
+depois code .     // para entrar no projeto 
+
+cd
+
+no powershell habilitar o pub global
+logar primeiro no firebase
+dart pub global activate flutterfire_cli
+esse comando tbem pode ser no PowerShell
+
+
+para logar no firebase . . . www.firebase.google.com e sua a conta amiltoxy4@gmail.com
+Instalar o firebase_cli
+depois ativar o flutter fire
+dart pub global activate flutterfire_cli
+
+
+Para criar um projeto: dart create -t console-full dart_week7_introducao_dart
+
+C:\Users\Amilton.Silva\AppData\Roaming\Code\User : setting.json
+
+C:\Users\Administrator\fvm\default\bin
+
+Alt + J - Seleciona varias vezes o texto e depois pode alterar
+No Windows é Ctrl + F2.
+
+void main(){
+
+// Tipos String, int, double, bool, num
+// Declaracao
+String curso = 'Academia do flutter';
+int AcessoEmAnos = 2;
+double valor = 1196.00;
+bool  turmaAberta = false;
+
+// Tipos Nulos - Todos tipos podem ter um valor nulo
+// //  String?, int?, double?, bool?, num?   ... podem ou não receber um valor
+
+
+String? cursoNulo = null;   //  'Academia do flutter';
+int? AcessoEmAnosNulo = null;
+double? valorNulo = null;
+bool?  turmaAbertaNulo  = null;
+
+print([
+  curso,
+  AcessoEmAnos,
+  valor,
+  turmaAberta,
+  cursoNulo,
+  AcessoEmAnosNulo,
+  valorNulo,
+  turmaAbertaNulo,
+  
+  ]);
+}
+
+
+
+void main(){
+
+var curso = 'Academia do flutter'; 
+var acessoEmAnos = 2;
+var valor = 1196.00;
+var turmaAberta = false;
+
+String? cursoNulo = null;  
+
+print([
+  curso,
+  acessoEmAnos,
+  valor,
+  turmaAberta,
+  cursoNulo,
+
+  ]);
+
+}
+////////////////////
+comando assert  - funão em modo de compilação
+     int x = 2;
+  int y = 3;
+
+  if (x == y) {
+    print("x é igual a y");
+  } else {
+    assert(x < y, "x deve ser menor que y");
+    print("x é menor que y");
+  }
+  
+  int idade = 16;
+
+  if (idade >= 18) {
+    print("Pode votar!");
+  } else {
+    assert(idade >= 16, "Idade mínima para votar é 16 anos");
+    print("Você pode votar quando tiver 18 anos.");
+  }
+// na verdade pode ser feito com outro if . . .  o assert retorna false ou verdadeiro
+
+
+/////////////////
+//////////////////
+comando Case
+void main() {
+  
+   var command = 'nada';
+  
+	switch ( command ) {
+  case 'FECHADO':
+    //executeOpen();
+      print('aberto');
+      break;
+    // ERROR: Missing break
+      
+
+  case 'OPEN':
+    // executeClosed();
+      print('FECHADO');
+    break;
+      
+    default:
+      print('nenhuma delas');
+      break;
+}
+  
+}
+/////////////////
+
+
+/////////////////////
+comando for
+void main() {
+  
+
+  var message = StringBuffer('Dart is fun');
+for (var i = 2; i < 5; i++) {
+  message.write('!');
+  print(' ${message} ' );
+}
+  
+  for ( double x = 1.5; x < 19; x*=2 ) {
+    print('o valor de x e . . . ${x}');
+    
+  }
+  
+  var collection = [0, 1, 2];
+  
+  for (var x in collection) {
+    print(x);
+  }
+  
+  var collection1 = [88, 89, 91];    //  funciona a mesma coisa
+collection1.forEach(print);
+
+  ////////////////////
+  Loop While                      While analise o loop antes da condição
+  Do While                        //  analise o Loop após a condição.
+  
+
+  int a = 0;
+  bool roda = true;
+  
+  while ( a < 10) {
+  //while(roda ){
+    print('${a}');
+    a++;
+    if ( a == 5) {
+      roda = false;
+    }
+  }
+    
+  while( a < 20 ){
+    print('${a}');
+    a++;
+    if ( a == 5) {
+      break;
+    }
+  }
+
+//////////////////////////////
+while
+  int a = 0;
+  bool roda = true;
+  
+  while ( a < 10) {
+  //while(roda ){
+    print('${a}');
+    a++;
+    if ( a == 5) {
+      roda = false;
+    }
+  }
+    
+  while( a < 20 ){
+    print('${a}');
+    a++;
+    if ( a == 5) {
+      break;
+    }
+  }
+
+  var d = 0;
+  
+  while( d < 10){
+    if ( d == 2){
+       d++;
+      continue;
+    }
+    if ( d == 7 ){
+      break;
+    }
+    
+    print ('valor de d e  ${d}');
+    d++;
+  }
+}
+
+///////////// Variaveis dinamicas  . . . Evitar usar
+void main(){
+
+dynamic variavelDinamica = '';
+variavelDinamica = 1;
+variavelDinamica = 1.0;
+variavelDinamica = 'curso';
+variavelDinamica = false;
+variavelDinamica = null;
+
+variavelDinamica.split('/');
+
+var curso = null;
+variavelDinamica.ceil();
+final i = 1;
+i.ceil();
+
+print(variavelDinamica);
+
+print(curso);
+
+}
+
+//////////////////////////  funcoes
+
+void main(){
+  // estrutura de uma função
+  // Tipo de retorno . . . 
+  // nome da Função(Parametros)
+
+   var primeiroNome = 'Recuperar nome amilton';
+   print(primeiroNome); 
+
+   //print(recuperarPrimeiroNome('Maria Completo'));
+   recuperarPrimeiroNomeVoid('Amiltinho dos anjos da silva '); 
+
+   var funcaoPrimeiroNome = recuperarPrimeiroNome;
+
+   var funcaoSemNome = (String nomeCompleto){
+    return nomeCompleto.split(' ').first;
+
+   };
+  
+   print(funcaoPrimeiroNome('guilherme pachco'));
+
+   print(funcaoSemNome('tudo funciona igual'));
+}
+
+String recuperarPrimeiroNome(String nomeCompleto){
+   return nomeCompleto.split(' ').last; 
+}
+
+void recuperarPrimeiroNomeVoid(String nomeCompleto){
+   final primeiroNome = nomeCompleto.split('  ').last; 
+   print(primeiroNome);
+}
+
+//////////    Parametros para funcoes
+
+void main(){
+
+  parametrosNormaisObrigatorios('Amilton da Silva', 55);
+  parametrosOpcionais('Jailton de souza', null );
+  parametrosNomeados(nome: 'Amilton', idade: 50);
+  parametrosNomeadosObrigatorios(nome: 'Amilton', idade: 50, Profissao: 'engenheiro');
+
+  parametrosMisturadosObrigatoriosComNomeados(idade: 49, 'Rodrigo');    // Dart 2.17 em diante
+
+
+  
+}
+
+void parametrosNormaisObrigatorios(String nome, int idade){}
+void parametrosOpcionais(String nome, [int? idade]){}
+void parametrosNomeados({String? nome, int? idade}) {}   //  não precisa seguir a ordem 
+void parametrosNomeadosObrigatorios({required String? nome, required int? idade, required String? Profissao}) {}
+
+void parametrosMisturadosObrigatoriosComOpcional(String nome, [int? idade]){}    
+void parametrosMisturadosObrigatoriosComNomeados(String nome, {int? idade}){}    //  assim não obedece a ordem dos parametros
+
+
+void main(){
+
+  parametrosNormaisObrigatorios('Amilton da Silva', 55);
+  parametrosOpcionais('Jailton de souza', null );
+  parametrosNomeados(nome: 'Amilton', idade: 50);
+  parametrosNomeadosObrigatorios(nome: 'Amilton', idade: 50, Profissao: 'engenheiro');
+
+  parametrosMisturadosObrigatoriosComNomeados(idade: 49, 'Rodrigo');    // Dart 2.17 em diante
+ 
+}
+
+void parametrosNormaisObrigatorios(String nome, int idade){}
+void parametrosOpcionais(String nome, [int? idade]){}
+void parametrosNomeados({String? nome, int? idade}) {}   //  não precisa seguir a ordem 
+void parametrosNomeadosObrigatorios({required String? nome, required int? idade, required String? Profissao}) {}
+
+void parametrosMisturadosObrigatoriosComOpcional(String nome, [int? idade]){}    
+void parametrosMisturadosObrigatoriosComNomeados(String nome, {int? idade}){}    //  assim não obedece a ordem dos parametros
+
+////////////////  Dart Week
+usar o power shell . . . não precisa ser de Administrador
+criar a pasta dart_weekzdw7
+e criar o projeto assim:
+
+flutter create --project-name job_timer --platforms android --org br.com.academiadoflutter ./job_timer
+cria projeto flutter
+--projetct name    . . . nome do Projeto
+--platforms  a plataforma que vai rodar o app
+--org a url ao contrario
+./job_timer   . . a pasta que vai ser criada o projeto
+
+
+Para inserir as dependencias no VsCode e desenvolver o projeto entrar no site pub-dev
+No projeto no arquivo pubspec.yaml colocar as dependencias que devem ficar assim
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  flutter_modular: ^5.0.3
+  modular_bloc_bind: ^1.0.1
+  asuka: ^2.0.1
+#Modular end
+
+#General
+  validatorless: ^1.2.1
+  fl_chart: ^0.55.1
+# General end
+
+#Firebase
+#firebase_database: ^9.1.2
+firebase_core: ^1.21.0
+firebase_auth: ^3.6.4
+
+google_sign_in: ^5.4.1
+
+bloc: ^8.1.0
+flutter_bloc: ^8.1.1
+equatable: ^2.0.5
+#Firebase end
+
+#Isar(NoSql)
+isar: ^2.5.0
+isar_flutter_libs: 2.5.0 # contains the binaries
+path_provider: ^2.0.11
+#Isar end  
+
+dev_dependencies:
+  isar_generator: 2.5.0
+  build_runner: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+  isar_generator: 2.5.0
+  build_runner: ^2.2.0
+
