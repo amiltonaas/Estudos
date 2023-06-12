@@ -1,13 +1,12 @@
 
 agora no Dart
 
-
 Para testar usar o Dart Pad . . .  é online
-
 
 Sets . . . são elementos definidos sem uma chave . . . elementos vazios
 
 
+------------------------------------------------------------------
 
 atualizar o Flutter:  Flutter upgrade
 criar um porojeto novo
