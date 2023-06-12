@@ -63,9 +63,13 @@ para copiar os valores numa coluna, seleciona a primeira e marca as outras e dá
 estudar a função SOMASE 	é muito boa
 ----------------------------------------   
 mas vai dar certo até eu acertar tudo  e precisa fazer t isso toda hora   
--------------------------------------
 
-agora sim
+ainda não deu certo
+
+
+
+
+
 
 
 
