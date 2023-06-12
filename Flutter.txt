@@ -1,0 +1,18 @@
+
+atualizar o Flutter:  Flutter upgrade
+criar um porojeto novo
+flutter create --project-name=teste --platforms android ./teste 
+fvm global stable - verifica a versão do flutter na forma global
+dart create -t console-full dart_week7_introducao_dart
+cd dart_week7_introducao_dart
+
+para acessar variáveis de ambiente direto . . . sysdm.cpl
+
+criar projeto em dart
+dart create -t console-full dart_week7_introducao_dart 
+depois . . . 
+cd  dart_week7_introducao_dart 
+depois dart run
+depois code .
+
+cd

@@ -1,0 +1,78 @@
+
+
+Para fazer o word escrever com voz . . . tecla windows+H
+-----------------------------------------------------------------------------
+para fazer autosoma no excel . . . seleciona a coluna e depois o comando Ctrl + Q
+--------------------------------------------------------------------------------------
+grafico no excel . . . marca . . ctrl+T, depois alt+F1, se precisar acrescentar nem precisa fechar, seleciona outra coluna, Ctrl+V e ctrl+C e o excel vai atualizar o gráfico
+---------------------------------------------------------------------------------
+ver função paracol no excel . . .  copia todas colunas numa coluna só
+marca toda tabela e depois alt + =  vai somar toda planilha  
+apagar todas linhas vazias - seleciona toda planilha e depois ctrl+G, depois escolhe especial e vá em branco e ok.
+ajustar planilha  ctrl+T depois alt cot  e alt coa   
+---------------------------------------------------------------------------
+word
+=(rand(2,3) enter . .  cria dois paragrafos com 3 frases cada
+ctrl+colchete - esquerda diminiu a a letra colchete a direita aumenta a letra
+mesma coisa com ctrl+shift+sinal de maior ou menor - aumenta e diminui mais ainda com pulo de tamanho de fonte
+ctrl+espaço = limpa toda formatação do texto
+ctrl+backspace - apaga uma palavra pra esquerda
+usar o botão área de transferencian do word - mostra tudo que foi no ctrl+C . . . 
+*+tab quantos quiser, depois do ultimo * enter . . . cria uma tabela
+Alt+G - vai direto pra diga-me o que quer fazer
+ALT - habilita as outras teclas de atalho
+ondrive.live.com . . .  ao entrar com usuario e senha está dentro dos arquivos do ondrive
+3 cliques no meio do parágrafo seleciona todo parágrafo
+seleciona com ALT - melhor seleção   
+
+-------------------------------------------------
+
+senha  embarcadero
+tokyodel2020
+
+Instalar o fortes Report
+https://www.youtube.com/watch?v=MedHUrMzTzA
+
+powerShell - precisa
+
+https://flutter.dev/  	   flutter
+
+zeos		https://www.youtube.com/watch?v=EDoPE4tuejc
+
+baixar qualquer video do youtube
+na url do youtube.com onde está escrito youtube substituir por 
+y2mate.bz e enter . . . vai aparecer várias opções de baixar . . para baixar no audio na url de yout-ube vai vir com outras opções para baixar
+
+Para fazer o word escrever com voz . . . tecla windows+H
+-----------------------------------------------------------------------------
+para fazer autosoma no excel . . . seleciona a coluna e depois o comando Ctrl + Q
+--------------------------------------------------------------------------------------
+win+shift+S  - abre a tela de captura de tela . . .  pode capturar o que quiser 
+------------------------------------------
+Excel dicas . . . shift+espaço seleciona a linha  ctrl+espaço seleciona a coluna
+inserir linha  . . . shift+espaço depois ctrl +  inseri uma linha PARA INSERIR COLUNA A MESMA COISA  ctrl+espaço seleciona a colua e depois ctrl + inseri uma coluna
+-----------------------------------------------------------------------------
+alt+G habilita o diga-me  - - - 
+----------------------------------------------
+www.office.live.com . . . acessa o ondrive e tem acesso a todos arquivos do ondrive
+------------------------------------------------------
+ctrl+1 abre direto a opção de formatação de texto
+ctrl+shift+!, ou $ ou %  formata a celula direto no teclado
+para copiar os valores numa coluna, seleciona a primeira e marca as outras e dá ctrl+enter
+-------------------------------------------
+estudar a função SOMASE 	é muito boa
+----------------------------------------   
+mas vai dar certo até eu acertar tudo  e precisa fazer t isso toda hora   
+
+ainda não deu certo
+
+
+
+
+
+
+
+
+
+
+

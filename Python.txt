@@ -1,0 +1,371 @@
+
+padoreto@receita.pr.gov.br
+
+Tutorial Python
+
+Sites para apredenr Python
+Google Developers
+Udemy
+CodeCademy
+Learnpython.org/
+Educative
+Python.org
+Coursera
+Microsoft, no Edx
+
+Cálculos matemáticos:
++ adição,  - subtração,  * multiplicação,  / Divisão,  ** Potencia,  // divisão inteira,  % Resto da divisão
+
+Ordem de precedência: 1- (),   2- **,   3- *, /, //, %    4-  + e - 
+
+
+
+comandos do Python são todos minusculos
+todos comandos python são minusculos
+
+https://docs.python.org/3.10/tutorial/index.html
+
+documentação:
+https://docs.python.org/3.10/index.html
+
+sintaxe
+https://docs.python.org/3.10/whatsnew/3.10.html
+
+nome = input('digite seu nome  ')
+print(f'bem vindo ao curso python {nome}')     assim tbem dá usar o {  colocando o f antes do aspas
+
+
+Os dois jeitos dá certo
+peso = int(input('digite seu peso  '))
+altura = float(input('digite sua altura  '))
+imc = peso /(altura * altura)
+# print('seu peso e  {}  e sua altura é {} e o imc é  {:.3f}'.format(peso, altura, float(imc)))   
+print(f'seu peso e  {peso}  e sua altura é {altura} e o imc é  {imc}')   
+ 
+
+tipos primitivos
+int  - numero inteiro   ex.   7, 4, 0, 9875
+float - numero flutuante    ex.  4.5,  0.0076 - divide por ponto  -  padrão é com ponto
+bool  - numero boleano . . . Rrue ou False  - o T e o F tem que ser maisculo
+str   - string  . . . precisa estar netre aspas simples ou dupla
+complexo  ex.  
+complexo = 3.1 + 4j
+type complexo
+
+nome = input('Qual é o seu nome: ')
+print('prazer em conhecelo, . . .{}!'.format(nome))    pode-se colocar valores dentro do colchete para definir a ordem da mostragem
+if nome == 'amilton':
+    print('deu certo')
+else:
+    print('nao deu certo')
+	delphi6
+n1 = int(input('digite o primeiro numero'))
+n2 = int(input('o segundo numero'))
+print('a soma dos numero é {}'.format(n1+n2))
+
+n1 = int(input('digite o primeiro numero  '))
+n2 = int(input('o segundo numero  '))
+s = n1 + n2
+m = n1 * n2
+d = n1 / n2
+di = n1 // n2
+e = n1 ** n2       # o \n quebra a linha   para quebrar \n  para não quebras z end= ''   aqui pode colocar caracteres dnetro das aspas
+print('A soma e  {}, \n o produto e {} e a \n divisao e {:.3f}'.format(s, m, d), end='  ')   # o end não deixa quebrar a linha . . {:.3f} formatr com 3 casas decimais float
+print('  // divisão inteira e  {} e potencia é {}'.format(di,e))
+
+Para fazer quebra de linhapalavra = ''' Curso 
+                       de Python               
+					   dkdkdk
+					   dkjdkdk
+					   fecha aqui  '''
+					   
+	
+
+nome = input('qual é o seu nome meu  ')
+print('prazer em conhce-lo {}'.format(nome))
+nome = input('qual é o seu nome ziaa  ')
+print('prazer em conhce-lo {:>20}!'.format(nome))      # alinhado a direita
+
+nome = input('qual é o seu nome veio  ')
+print('prazer em conhce-lo {:<20}!'.format(nome))      # alinhado a esquerda
+
+nome = input('qual é o seu nome mano  ')
+print('prazer em conhce-lo {:^20}!'.format(nome))      # alinhado a centralizado
+
+nome = input('qual é o seu nome meu amigo  ')
+print('prazer em conhce-lo {:=^20}!'.format(nome))      # com 20 espaços centralizado
+
+
+n1 = int(input('digite o primeiro numero  '))
+n2 = int(input('digite o segundo numero . .'))
+s = (n1+n2)
+print('a soma entre {} e {} vale {}'.format(n1, n2, s))
+# print('valor soma  ()'.format {n1,n2,s))
+
+hastag é que comenta linha
+
+n1 = int(input('insere o primeiro numero . '))
+n2 = int(input('digite o segundo numero . '))
+s = n1+n2
+print('A soma dos valores {} e {} é igual a {}'.format(n1, n2, s))
+
+n1 = int(input('insere o primeiro numero . '))
+n2 = int(input('digite o segundo numero . '))
+s = n1+n2
+print("A soma dos valores {} e {} é igual a {} ".format(n1, n2, s))
+
+nome = input('Qual é o seu nome: ')
+print('prazer em conhecelo, . . .{}!'.format(nome))
+if nome == 'amilton':
+    print('deu certo')
+else:
+    print('nao deu certo')
+
+n1 = int(input('digite o primeiro numero  '))
+n2 = int(input('digite o segundo numero . .'))
+s = (n1+n2)
+print('a soma entre {} e {} vale {}'.format(n1, n2, s))
+# print('valor soma  ()'.format {n1,n2,s))
+
+
+n = str(input('digite algo . .'))
+print(n.isalpha())
+
+algo = str(input('digite alguma coisa  '))
+print('o resultado da informacao {} é'.format(algo))
+
+#print('o resultado da informacao {} é'.format(type(algo)))
+# print('a soma entre {} e {} vale {}'.format(n1, n2, s))
+# print('valor soma  ()'.format {n1,n2,s))
+
+
+nome = input('Qual é o seu nome ..?   ')
+idade = input('Qual é a sua idade . .?   ')
+peso = input('Qual é o seu peso?  ')
+print(nome,idade,peso)
+
+
+dia = input('Qual é o dia do nascimento?  ')
+mes = input('Qual o mes do nascimento  ')
+ano = input ('qual o ano de nascimento ')
+
+print('Voce nasceu no dia ' + dia + ' de '+mes + ' do ano de '+ ano + ' Correto!')
+
+Variáveis em Python
+Variáveis servem para dar nome a posições de memória que irão armazenar dados de um programa. Por exemplo, o comando de atribuição
+NotaP1 = 7.5
+cria uma variável de nome NotaP1 que passa a armazenar o valor real 7.5.
+A partir do momento em que foi criada uma variável pode ser usada em expressões aritméticas e atribuídas a outras variáveis, por exemplos
+NotaP2 = 8.0
+Media = (NotaP1+NotaP2)/2
+
+Regras para nomes de variáveis
+O nome das variáveis devem obrigatoriamente começar com uma letra;
+Deve-se usar nomes significativos dentro do contexto do programa;
+Exemplo de nomes de variáveis válidas:
+Idade, Contador, PesoDoCarro, Usuario_1, CorDaPagina, RaioDoCirculo
+Exemplo de nomes de variáveis inválidas:
+salario medio : não pode conter espaços
+1a: não pode começar com números
+Python é uma linguagem case-sensitive, ou seja, faz diferença entre nomes com letras maiúsculas e nomes com letras minúsculas.  Peso e peso são variáveis diferentes;
+Pode-se usar maiúsculas e minúsculas para separar palavras dentro do nome de uma varíavel: "PesoDoCarro";
+O nome da variável deve ser diferente dos comandos da linguagem(if, for, ...);
+
+Tipos de Variáveis
+As variáveis em Python tem um tipo, que é definido no momento em que a variável é criada por um comando de atribuição;
+Cada tipo define os valores que a variável pode armazenar;
+Cada tipo ocupa uma certa quantidade de nemória.
+Inicialmente, trataremos de 4 tipos de variáveis:
+Inteiros: 45, 30 -1034
+Reais: 18.34  90.33 -2345.6543
+Strings: armazenam sequências de caracteres como nomes de pessoas ou lugares, frases, mensagens. As  strings são identiifcadas no código por serem escritas entre aspas ("Uma string") ou  apostrofos ('Joao da Silva'). Para
+Lógico: estas variáveis podem armazenar os valores especiais True e False, e servem para armazenar o resultado de uma condição como Teste = (3>2), que resulta em False. Maiores detalhes sobre estas variáveis serão apresentados quando tratarmos de comandos de decisão ou seleção
+
+Impressão de Variáveis
+
+Para imprimir variáveis em Python usa-se a função print (). Com ela é possível imprimir tanto constantes, como nos comandos
+print ("Minha primeira mensagem em Python")
+print (34+56)
+
+quanto variáveis, como em
+Mensagem = "Bom dia !"
+print(Mensagem)
+
+NotaP1 = 7.5
+NotaP2 = 8.0
+Media = (NotaP1+NotaP2)/2
+print("A media das notas ", NotaP1, " e ", NotaP2, " é ", Media)
+
+Como se pode ver, ao receber uma variável, o comando print exibe o valor da variável e não seu nome.
+Também é possivel imprimir diretamente o valor de uma expressão, como em
+print("Duas horas são mesmo que ", 60*2, " minutos.")
+
+que gerará como saída a mensagem
+Duas horas são mesmo que 120 minutos.
+
+Formatação da Impressão de Variáveis
+
+É possível definir a aparência de um número que será impresso na tela. Para tanto, pode-se usar um comando de formatação dentro de uma string como no trecho
+a=3.2
+print("Valor = %6.3f " %a)
+que gerará como saída a mensagem
+Valor =  3.200
+
+O comando %6.3f colocado dentro da string é chamando de formatador ou string de formato. Este comando permite informar que se quer um número com seis caracteres de comprimento e três casas decimais.
+Logo após a string que define o formatador é preciso colocar o símbolo % seguido do valor ou da variável a ser impresso no lugar do formatador.
+
+Também é possível formatar a impressão de números inteiros. Neste caso, é posível definir a largura total do n;umeo a ser impresso, em termos de quanto caracteres este possuirá ao ser impresso.
+Para tanto usa-se o formator %d, como no trecho
+N = 45
+print("12345678901234567890") # mensagem colocada aqui apenas para facilitar a visualização
+print("Valor de N:%5d" %N)
+que gerará a saída
+12345678901234567890
+Valor de N:   45
+note que são inseridos 3 espaços em branco antes do valor a ser impresso pois este tem apenas 2 caracteres e o formato especificado exigia 5.
+
+Caso seja necessário imprimir novos dados no mesmo comando print, basta adicioná-los separados por vírgula, como nos exemplos anteriores:
+print("1234567890123456789012345678901234567890")
+print("Valor de N: %5d" %N, "dividido por %4d" % 2, " é %4.3f" %(N/2.0))
+
+que gerará a saída
+1234567890123456789012345678901234567890
+Valor de N:    45 dividido por    2  é 22.500
+
+
+
+Primeiro exercício
+
+num1=int( input('Digite o primeiro numero: ') )
+num2=int( input('Digite o segundo numero: ') )
+
+if num1 > num2 :
+    print('O primeiro, %d, é maior' %num1)
+else:
+    if num1 == num2 :
+        print('Os números são iguais')
+    else:
+        print('O segundo, %d, é maior' %num2)
+
+
+Segundo Exercício
+num=int( input('Digite um numero: ') )
+
+if num > 0 :
+    print('Positivo')
+else:
+    if num == 0 :
+        print('Nem positivo nem negativo, é 0')
+    else:
+        print('Negativo')
+
+
+Terceiro Exercício
+esposta=input('M ou F: ')
+
+if resposta == 'M':
+    print('Masculina')
+else:
+    if resposta == 'F':
+          print('Feminina')
+    else:
+        print('Você não digitou M ou F')
+
+
+
+
+idade = int(input("Digite sua idade: "))
+
+if idade >= 18:
+    print("Parabéns, voce ja tem idade para tirar a sua carteira.")
+
+print("fim.")
+
+n = int(input("Digite um numero: "))
+
+if n % 2 == 0:  # se n é múltiplo de 2
+    print(n, "e' par")
+if n % 2 != 0:  # se n não é múltiplo de 2
+    print(n , "e' impar")
+
+print("fim.")
+
+
+n = int(input("Digite um numero: "))
+
+if n % 2 == 0:  # se n é múltiplo de 2 então é par
+    print(n, "e' par")
+else:           # senão o número é ímpar, não precisa fazer outro teste!
+    print(n, "e' impar")
+
+print("fim.")
+
+
+nota = int(input("Digite uma nota: "))
+
+if nota < 30:
+    print("Reprovado")
+else:
+    if nota < 50:
+        print("Recuperacao")
+else:
+        print("Aprovado")
+
+print("fim.")
+
+nota = int(input("Digite uma nota: "))
+
+if nota < 30:
+    print("Reprovado")
+if nota >= 30:
+    if nota < 50:
+        print("Recuperacao")
+if nota >= 50:
+        print("Aprovado")
+
+print("fim.")
+
+
+nota = int(input("Digite uma nota: "))
+
+if nota < 30:
+    print("Reprovado")
+elif nota < 50:
+    print("Recuperacao")
+else:
+    print("Aprovado")
+
+print("fim.")
+
+
+nota = int(input("Digite uma nota: "))
+
+if nota < 30:
+    print("Reprovado")
+elif nota < 50:
+    print("Recuperacao")
+elif nota < 90:
+    print("Aprovado")
+else:
+    print("Aprovado com louvor!")
+
+print("fim.")
+
+
+n = 25   # altere esse valor e simule esse trecho novamente
+if n < 0:
+    print(n, "< 0")
+elif n == 0:
+    print(n, "== 0")
+elif n < 10:
+    print("0 < ", n,"< 10")
+elif n < 20:
+    print("10 <=", n, "< 20")
+elif n < 30:
+    print("20 <=", n, "< 30")
+elif n < 50:
+    print("30 <=", n, "< 50")
+else:
+    print("50 <=", n)
+
+print("Termino do teste.")
